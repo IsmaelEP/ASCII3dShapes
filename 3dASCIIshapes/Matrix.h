@@ -17,7 +17,7 @@ public:
 
 	void cubeInMatrix(cube c);
 	
-
+	void shiftMatrix(int LR, int UD, int FB);
 
 private:
 	vector <vector<vector<int>>> vvv;
