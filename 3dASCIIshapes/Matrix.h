@@ -19,7 +19,13 @@ public:
 	
 	void shiftMatrix(int LR, int UD, int FB);
 
+	void rotateSide();
+
+	void perspect();
+
 private:
-	vector <vector<vector<int>>> vvv;
+	vector <vector<vector<char>>> vvv;
+	vector <vector <char>> face;
+	string btr = "$@B % 8 & WM#  * oahkbdpqwmZO0QLCJUYXzcvunxrjft / | ()1{}[] ? -_ + ~<>i!lI; : , \"^`'.";
 	int length = 0, width = 0, height = 0;
 };

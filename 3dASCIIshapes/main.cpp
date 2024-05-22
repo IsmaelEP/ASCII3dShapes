@@ -11,11 +11,11 @@ int main()
 
 	m.cubeInMatrix(cu);
 
-	m.shiftMatrix(0, 3, 3);
+	m.shiftMatrix(3, 3, 3);
 
+	m.perspect();
 
 	m.outMatrix();
-
 
 
 
